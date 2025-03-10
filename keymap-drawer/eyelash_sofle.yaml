@@ -38,7 +38,7 @@ layers:
   - R
   - T
   - D
-  - Z
+  - {t: Z, h: '1'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '[', s: '{'}
   - {t: ;, s: ':'}
@@ -103,11 +103,11 @@ layers:
   - {t: Sft+9, s: Sft+(}
   - {t: /, s: '?'}
   - {t: Sft+., s: Sft+>}
-  - AltGr+Q
+  - {t: AltGr+Q, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
   - {t: Sft+4, s: Sft+$}
-  - {t: AltGr+\, s: AltGr+|}
+  - AltGr+NUBS
   - {t: 'AltGr+]', s: 'AltGr+}'}
   - KP EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
