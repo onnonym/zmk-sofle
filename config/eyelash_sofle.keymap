@@ -52,7 +52,7 @@
             bindings = <
 &kp F1        &kp F2        &kp F3          &kp F4        &kp F5           &kp F6      &mmv MOVE_UP     &kp F7     &kp F8     &kp F9     &kp F10          &kp F11     &kp F12
 &kp Z         &kp X         &kp V           &kp L         &kp C            &kp W       &mmv MOVE_DOWN   &kp K      &kp H      &kp G      &kp F            &kp Q       &kp MINUS
-&mo 1         &kp U         &kp I           &kp A         &kp E            &kp O       &mmv MOVE_LEFT   &kp S      &kp N      &kp R      &kp T            &kp D       &kp Z
+&mo 1         &kp U         &kp I           &kp A         &kp E            &kp O       &mmv MOVE_LEFT   &kp S      &kp N      &kp R      &kp T            &kp D       &lt 1 Z
 &kp LSHFT     &kp LBKT      &kp SEMICOLON   &kp SQT       &kp P            &kp Y       &mmv MOVE_RIGHT  &kp B      &kp M      &kp COMMA  &kp DOT          &kp J       &kp RSHFT
 &kp C_MUTE    &mo 3         &mo 4           &mt LGUI ESC  &mt LCTRL ENTER  &lt 2 TAB   &mkp LCLK        &kp SPACE  &kp BSPC   &kp LALT   &mo 4            &mo 3
             >;
@@ -66,7 +66,7 @@
 &trans      &trans          &trans          &trans          &trans          &trans          &trans  &trans          &trans      &trans          &trans          &trans          &trans
 &trans      &kp LS(GRAVE)   &kp LS(FSLH)    &kp RA(N8)      &kp RA(N9)      &kp GRAVE       &trans  &kp LS(N1)      &kp NUBS    &kp LS(NUBS)    &kp LS(N0)      &kp LS(N6)      &kp RA(E)
 &trans      &kp RA(MINUS)   &kp LS(N7)      &kp RA(N7)      &kp RA(N0)      &kp LS(RBKT)    &trans  &kp LS(MINUS)   &kp LS(N8)  &kp LS(N9)      &kp FSLH        &kp LS(DOT)     &kp RA(Q)
-&trans      &kp BSLH        &kp LS(N4)      &kp RA(BSLH)    &kp RA(RBKT)    &kp KP_EQUAL    &trans  &kp RBKT        &kp LS(N5)  &kp LS(N2)      &kp LS(BSLH)    &kp LS(COMMA)   &trans
+&trans      &kp BSLH        &kp LS(N4)      &kp RA(NUBS)    &kp RA(RBKT)    &kp KP_EQUAL    &trans  &kp RBKT        &kp LS(N5)  &kp LS(N2)      &kp LS(BSLH)    &kp LS(COMMA)   &trans
 &trans      &trans          &trans          &trans          &trans          &trans          &trans  &trans          &trans      &trans          &trans          &trans
             >;
 
