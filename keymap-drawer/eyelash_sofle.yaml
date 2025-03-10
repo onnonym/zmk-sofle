@@ -85,7 +85,7 @@ layers:
   - {t: AltGr+9, s: AltGr+(}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+1
+  - {t: Sft+1, s: Sft+!}
   - NUBS
   - Sft+NUBS
   - {t: Sft+0, s: Sft+)}
@@ -207,7 +207,7 @@ layers:
   - RGB BRI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
-  - '&soft_off'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
